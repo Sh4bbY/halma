@@ -1,0 +1,39 @@
+Arguments: 
+  /home/shabby/.nvm/versions/node/v10.16.3/bin/node /usr/share/yarn/bin/yarn.js install phaser
+
+PATH: 
+  /home/shabby/.nvm/versions/node/v10.16.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/ProgramData/DockerDesktop/version-bin:/c/Program Files/Docker/Docker/Resources/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Users/ShabbY/AppData/Local/Microsoft/WindowsApps:/c/Users/ShabbY/AppData/Local/hyper/app-3.0.2/resources/bin:/c/Users/ShabbY/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/shabby/.local/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/shabby/dev/halma/package.json: Unexpected token } in JSON at position 202
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "halma",
+    "version": "0.1.0",
+    "description": "online halma game",
+    "main": "index.js",
+    "author": "Sascha Bialon <sascha.bialon@shabbtech.com>",
+    "license": "MIT",
+    "private": false,
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
