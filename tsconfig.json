@@ -3,11 +3,13 @@
     "target": "es5",
     "sourceMap": true
   },
+  "lib": ["dom","es2019"],
   "include": [
     "**/*.ts"
   ],
   "typeRoots": [
-    "./node_modules/phaser/types"
+    "node_modules/@types",
+    "node_modules/phaser/types"
   ],
   "types": [
     "Phaser"
