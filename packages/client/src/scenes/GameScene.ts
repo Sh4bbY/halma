@@ -18,9 +18,9 @@ export class GameScene extends Phaser.Scene {
 
   init(): void {
     this.players = [
-      new Player('Johnny', GameColor.RED, '#F00'),
-      new Player('Johnny2', GameColor.BLUE, '#00F'),
-      new Player('John3', GameColor.GREEN, '#0F0'),
+      new Player('Player 1', GameColor.RED, '#F00'),
+      new Player('Player 2', GameColor.BLUE, '#00F'),
+      new Player('Player 3', GameColor.GREEN, '#0F0'),
     ];
     this.board   = new Board(this, this.players, true);
 
@@ -36,6 +36,8 @@ export class GameScene extends Phaser.Scene {
   }
 
   create(): void {
+
+
     this.input.on('drag', (pointer, gameObject, dragX, dragY) => {
       if (this.currentPlayer.color !== gameObject.player.color) {
         return;

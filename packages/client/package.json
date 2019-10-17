@@ -6,11 +6,12 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "webpack --config webpack/prod.js ",
-    "start": "webpack-dev-server --config webpack/base.js"
+    "build": "webpack --config webpack/production.js ",
+    "serve": "webpack-dev-server --config webpack/base.js"
   },
   "dependencies": {
-    "phaser": "^3.20.0"
+    "phaser": "^3.20.0",
+    "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
